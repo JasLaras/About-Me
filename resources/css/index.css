@@ -1,0 +1,38 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #b0dbdb;
+    padding: 20px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+    main {
+        display: flex;
+        justify-content: space-between;
+    }
+    img {
+        width: 45%;
+    }
+}
+footer {
+    background-color: #333;
+    color: #b0dbdb;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
